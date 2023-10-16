@@ -1,0 +1,19 @@
+extends layout
+block content
+  <form action=#{"/user/" + items[0].id} method="post">
+  table.table.table-striped
+    tr
+      th ID
+      th Name
+      th Age
+    each item in items
+      input(type="hidden" name="id" value=item.id)
+      tr
+        td= item.id
+        td
+          input(type="text" value=item.name name="name")
+        td
+          input(type="text" value=item.age name="age")
+        td
+          input(type="submit" value="Update details")
+  a(href="/") Return to homepage

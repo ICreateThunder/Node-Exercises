@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a repository containing serveral NodeJS Express application code. The exercises start with simple web applications and progress to implement MSSQL Node module to access a Microsoft SQL server. The primary purpose of this repository is to learn NodeJS, Express, and adding modules/libraries to extend features and functionality.
+This is a repository containing serveral NodeJS Express application's code. The exercises start with simple web applications and progress to implement MSSQL Node module to access a Microsoft SQL server. The primary purpose of this repository is to learn NodeJS, Express, and adding modules/libraries to extend features and functionality.
 
 ## Specifications
 
